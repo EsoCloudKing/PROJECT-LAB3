@@ -64,12 +64,26 @@ It will Cover the entire vulnerability management lifecycle, including vulnerabi
 
 - Deactivate the Guest account and rename it to reduce exposure to potential unauthorized access.
 
+  - Deleted malicious file, closed some open ports etc.
+
 - Apply the latest Windows updates to integrate critical security patches and maintain compliance with current standards.
 
   **Perform a final scan** to confirm remediation and ensure compliance.
 
-- the documented results of the scans can be found below: 
-  excell Image and graph below
+  The documented outcomes of the performed scans are as follows:
+
+  ![excell2](https://github.com/user-attachments/assets/5eddc6c9-51ab-4a78-aec9-7d6b58d30da1)
+
+  
+- Scan 1 (Baseline Establishment): The initial scan establishes a vulnerability baseline, serving as the foundation of our security posture assessment.
+
+- Scan 2 (Threat Introduction): A sharp spike is detected after introducing several high-risk elements: a deprecated Firefox version, a malicious file with a known MD5 hash signature, disabled automatic Windows updates, and deleted critical patches.
+
+- Scan 3 (Initial Remediation): Mitigation efforts show success—a decline in vulnerabilities emerges after removing Firefox, eradicating the malicious file, and applying necessary Windows updates.
+
+- Scan 4 (Full Patching): A further drop is recorded post full-system patching and complete remediation of outdated components.
+
+- Scan 5 (Final Remediation): The remediation process concludes with vulnerabilities returning to the original baseline threshold, restoring system integrity after persistent remediation activities.
 
 
   ## CONCLUSION
