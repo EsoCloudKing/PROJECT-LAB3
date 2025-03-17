@@ -22,35 +22,43 @@ It will Cover the entire vulnerability management lifecycle, including vulnerabi
     **1: SET UP AND CONFIGURE ENVIROMENT**
 
     - Provision, Configure a VM in Azure  and Prepare the VM for vulnerability scanning: In this step Azure vm was created, connected to via RDP.
-       Windows firewall was turned off, remote assess was configured via powershell with this Bash command line (Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "LocalAccountTokenFilterPolicy" -Value 1 -Type DWord -Force)
-      Azure vm image
+       Windows firewall was turned off, remote assess was configured via powershell with this Bash command line (Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "LocalAccountTokenFilterPolicy" -Value 1 -Type DWord -Force).
+
+       ![vm](https://github.com/user-attachments/assets/3cacfe73-c6e8-4457-b46c-4fd0f7d077ef)
+
 
  **2: CONFIGURE TENABLE ENVIROMENT**
 
  - Set up a credentialed Tenable scan to identify all fundamental vulnerabilities, including compliance with DISA Windows 10 STIG v3r2 standards.
-     TENABLLE IMAGE
+
+     ![copy Tennable](https://github.com/user-attachments/assets/a0dfd5ec-725b-4cae-8b4e-d1b13c9bbb0d)
+
 
  **3: BASELINE SCAN** 
  
 - Conduct an initial scan to establish a baseline for vulnerabilities and compliance.
-- Examine and interpret the scan results, paying particular attention to any failed STIGs. For this context of this Lab, will focus on the following vulnerabilities to Fail/Remediate and STIGS to Pass/Fail/Remediate below:
+- Examine and interpret the scan results, paying particular attention to any failed STIGs. For this context of this Lab, will focus on the following vulnerabilities to Fail/Remediate.
 
-  **Vulnerabilities:** List and Image(below)
+  ![base scan 2](https://github.com/user-attachments/assets/d9d41a2b-33fb-4a33-a1d4-8e6fb975b7cd)
 
- **STIGs Compliance:** List and Image(below)
+
+  
 
   **4: INTRODUCE VULNERABILITES** 
   Simulate Vulnerabilities:
 
-- In this step, vulnerabilities like outdated software (e.g., download Firefox version 110) were introduced or improperly configured settings (e.g., enabling the Guest Account) to intentionally trigger non-compliance with STIG ID WN10-SO-000010 by activating the Guest Account.
+- In this step, vulnerabilities like outdated software (e.g., download old Firefox version 110) were introduced or improperly configured settings (e.g., enabling the Guest Account) to intentionally trigger non-compliance with STIG ID WN10-SO-000010 by activating the Guest Account, unistalling previous windows update on our windows 10 VM.
 
 -Then, a second scan was Performd to detect changes.
 
-Image troducing vulnerabilities below
+![vulnerabilities](https://github.com/user-attachments/assets/cd39746f-bc2a-485f-bd1a-68b5b02eb861)
+
+
+
 
   **5: REMEDIATION (Resolve Vulnerabilities and Ensure Compliance)**
   
-- Remove outdated software to eliminate security risks.
+- Uninstall outdated software to eliminate security risks.
 
 - Adjust registry settings to expand the security event log size, enhancing event tracking and auditing capabilities.
 
@@ -63,7 +71,8 @@ Image troducing vulnerabilities below
 - the documented results of the scans can be found below: 
   excell Image and graph below
 
-     ## CONCLUSION
+
+  ## CONCLUSION
 
   This lab strengthened my expertise in the folowing;
 
