@@ -17,12 +17,13 @@ It will Cover the entire vulnerability management lifecycle, including vulnerabi
   - __Powreshell:__ Allowing remote access to Host (Azure Vms)
 
 
-    **LAB SCHEMATIC DIAGRAM AND OVERVIEW**
+ **LAB SCHEMATIC DIAGRAM AND OVERVIEW**
  
-![Diagram](https://github.com/user-attachments/assets/a211b149-1807-4962-8205-c35104d52324)
+![VMGT Draw](https://github.com/user-attachments/assets/ec525596-fa2e-4aaa-9dab-40e33738e0d0)
 
 
-    ## LAB STEPS
+  ## LAB STEPS
+    
     **1: SET UP AND CONFIGURE ENVIROMENT**
 
     - Provision, Configure a VM in Azure  and Prepare the VM for vulnerability scanning: In this step Azure vm was created, connected to via RDP.
