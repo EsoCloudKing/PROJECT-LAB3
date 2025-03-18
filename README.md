@@ -16,7 +16,11 @@ It will Cover the entire vulnerability management lifecycle, including vulnerabi
   - __Tenable Vulnerability Management__
   - __Powreshell:__ Allowing remote access to Host (Azure Vms)
 
-      **LAB SCHEMATIC DIAGRAM AND OVERVIEW**
+
+    **LAB SCHEMATIC DIAGRAM AND OVERVIEW**
+ 
+    ![Diagram](https://github.com/user-attachments/assets/2780c119-c3f8-4878-bd8c-ff690beb3b5a)
+
 
     ## LAB STEPS
     **1: SET UP AND CONFIGURE ENVIROMENT**
