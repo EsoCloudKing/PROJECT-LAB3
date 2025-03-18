@@ -24,12 +24,13 @@ It will Cover the entire vulnerability management lifecycle, including vulnerabi
 
   ## LAB STEPS
     
-    **1: SET UP AND CONFIGURE ENVIROMENT**
+   **1: SET UP AND CONFIGURE ENVIROMENT**
 
-    - Provision, Configure a VM in Azure  and Prepare the VM for vulnerability scanning: In this step Azure vm was created, connected to via RDP.
-       Windows firewall was turned off, remote assess was configured via powershell with this Bash command line (Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "LocalAccountTokenFilterPolicy" -Value 1 -Type DWord -Force).
+- Provision, Configure a VM in Azure  and Prepare the VM for vulnerability scanning: In this step Azure vm was created, connected to via RDP.
+Windows firewall was turned off, remote assess was configured via powershell with this Bash command line (Set-ItemProperty -Path
+"HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "LocalAccountTokenFilterPolicy" -Value 1 -Type DWord -Force).
 
-![vm](https://github.com/user-attachments/assets/d77913cc-4052-45b0-99e2-3ac1441fb2f6)
+![vm2](https://github.com/user-attachments/assets/6d61d91f-b7ae-4e10-bd09-e94fb9d8158e)
 
 
 
