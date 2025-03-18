@@ -19,7 +19,7 @@ It will Cover the entire vulnerability management lifecycle, including vulnerabi
 
     **LAB SCHEMATIC DIAGRAM AND OVERVIEW**
  
-![VMGT Draw](https://github.com/user-attachments/assets/46d9fe75-ac08-4ad7-9193-f0800192dd02)
+![Diagram](https://github.com/user-attachments/assets/a211b149-1807-4962-8205-c35104d52324)
 
 
     ## LAB STEPS
