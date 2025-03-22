@@ -1,5 +1,13 @@
 # Vulnerability Management Lab Utilizing Tenable Solutions
 
+## Overview
+This project focuses on creating a Vulnerability Management Lab using Tenable solutions to identify, assess, and remediate security vulnerabilities in modern IT environments. The lab will incorporate tools such as Tenable Nessus for vulnerability scanning for advanced analytics and reporting. It emphasizes best practices in vulnerability prioritization, remediation strategies, and compliance adherence. By simulating real-world scenarios, this lab provides a hands-on platform to strengthen proactive security measures, ensuring robust risk management and enhanced resilience against potential threats.
+
+   **LAB SCHEMATIC DIAGRAM AND OVERVIEW**
+ 
+   ![VMGT Draw](https://github.com/user-attachments/assets/ec525596-fa2e-4aaa-9dab-40e33738e0d0)
+
+ 
  ## Objective
 The purpose of this Lab is to configure and implemented a comprehensive vulnerability management system to identify, assess, and mitigate security vulnerabilities in an IT infrastructure.
 It will Cover the entire vulnerability management lifecycle, including vulnerability detection, assessment, prioritization, remediation, and reporting.
@@ -16,16 +24,10 @@ It will Cover the entire vulnerability management lifecycle, including vulnerabi
   - __Tenable Vulnerability Management__
   - __Powreshell:__ Allowing remote access to Host (Azure Vms)
 
-
- **LAB SCHEMATIC DIAGRAM AND OVERVIEW**
- 
-![VMGT Draw](https://github.com/user-attachments/assets/ec525596-fa2e-4aaa-9dab-40e33738e0d0)
-
-
-  ## LAB STEPS
+     ## LAB STEPS
     
    **1: SET UP AND CONFIGURE ENVIROMENT**
-
+ 
 - Provision, Configure a VM in Azure  and Prepare the VM for vulnerability scanning: In this step Azure vm was created, connected to via RDP.
 Windows firewall was turned off, remote assess was configured via powershell with this Bash command line (Set-ItemProperty -Path
 "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "LocalAccountTokenFilterPolicy" -Value 1 -Type DWord -Force).
